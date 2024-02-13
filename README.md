@@ -39,9 +39,7 @@ Setting up the PICO and PICO W
 - download one of the two files below
     - [Pico W](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2)
     - [Pico](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
-- Hold the Button down on the Pico whilst plugging it in
-**BE SURE IT IS THE CORRECT FIRMWARE FOR YOUR PICO/PICO W **
+- Hold the Button down on the Pico whilst plugging it in 
 - A removable Device will appear in your system, drag the file you downloaded to the removable device.
-**BE SURE IT IS THE CORRECT FIRMWARE FOR YOUR PICO/PICO W **
 - Once copied it will install Micropython on itself and reboot and vanish
 - The Pico is now set up
