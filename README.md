@@ -21,13 +21,13 @@ As we add modules we may need to add new python libraries, these will need to be
 ## Setting Up Dev Environment
 Systems with the items installed/extensions in dot points below.
 
-Using Ubuntu 22.04
+### Using Ubuntu 22.04
  - Visual Studio Code
  - Python 3.10.12
  - Git
  - Thonny Python IDE (for copying and saving files to the Pico)
 
-Visual Studio Code:
+### Visual Studio Code:
 - [MicroPico Run the fix Permissions Script](https://github.com/paulober/MicroPico/wiki/Linux)
 - Git Lense (Quality of Life)
 - IntelliCode
@@ -35,7 +35,7 @@ Visual Studio Code:
 - Python
 - Python Debugger
 
-Setting up the PICO and PICO W 
+### Setting up the PICO and PICO W 
 - download one of the two files below
     - [Pico W](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2)
     - [Pico](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
