@@ -8,4 +8,4 @@ A reimagining of the HiJo Project from 2018, brought over to micropython for a l
 - 
 
 
-
+#Be Sure to Copy Libs folder contents to the pico directory, you will need to use Thonny and Save as
