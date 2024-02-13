@@ -5,6 +5,7 @@ A reimagining of the HiJo Project from 2018, brought over to micropython for a l
 
 The Initial Pilot will be run offline to save development time and overhead, A re-write may be needed to move it to online.
 
+As we add modules we may need to add new python libraries, these will need to be put in the libs folder and copied to the PICO with Thonny when testing
 
 
 
@@ -24,12 +25,23 @@ Using Ubuntu 22.04
  - Visual Studio Code
  - Python 3.10.12
  - Git
- 
+ - Thonny Python IDE (for copying and saving files to the Pico)
 
 Visual Studio Code:
-- MicroPico Extension (https://github.com/paulober/MicroPico/wiki/Linux Needs the fix permissions script to be ran)
+- [MicroPico Run the fix Permissions Script](https://github.com/paulober/MicroPico/wiki/Linux)
 - Git Lense (Quality of Life)
 - IntelliCode
 - Pylance
 - Python
 - Python Debugger
+
+Setting up the PICO and PICO W 
+- download one of the two files below
+    - [Pico W](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2)
+    - [Pico](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
+- Hold the Button down on the Pico whilst plugging it in
+**BE SURE IT IS THE CORRECT FIRMWARE FOR YOUR PICO/PICO W **
+- A removable Device will appear in your system, drag the file you downloaded to the removable device.
+**BE SURE IT IS THE CORRECT FIRMWARE FOR YOUR PICO/PICO W **
+- Once copied it will install Micropython on itself and reboot and vanish
+- The Pico is now set up
