@@ -43,3 +43,14 @@ Systems with the items installed/extensions in dot points below.
 - A removable Device will appear in your system, drag the file you downloaded to the removable device.
 - Once copied it will install Micropython on itself and reboot and vanish
 - The Pico is now set up
+
+### Brancing and keeping main safe
+When writing code or working on a feature please ensure you checkout a new branch or switch to a branch thats being worked on if you are helping with that feature or something related to it for example
+
+``` git checkout -b "Testing_New_Sensor" ```
+
+This will help us keep the main working branch safe from un intended commits, and be sure to use naming that makes sense to other users.
+
+If during this process you are adding new files you need to add them with ```git add filenamehere``` and if the file is in a subfolder ```git add foldername/filename```
+
+Writing a commit message when getting ready to push changes is also a good idea you can do that with ```git commit -a -m "Added new files and fixed an issue" ```
