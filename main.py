@@ -6,7 +6,7 @@ import PiicoDev_VL53L1X as dista
 import PiicoDev_LIS3DH as accel
 import math
 from PiicoDev_TMP117 import PiicoDev_TMP117, sleep_ms
-from rotary_irq_rp2 import RotaryIRQ
+#from rotary_irq_rp2 import RotaryIRQ
 
 # Initialize variables
 temp_data = 0.0
