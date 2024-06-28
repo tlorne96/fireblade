@@ -6,6 +6,8 @@ import PiicoDev_VL53L1X as dista
 import PiicoDev_LIS3DH as accel
 import math
 from PiicoDev_TMP117 import PiicoDev_TMP117, sleep_ms
+import sd_card
+import uos
 #from rotary_irq_rp2 import RotaryIRQ
 
 # Initialize variables
@@ -15,7 +17,17 @@ motion = accel.PiicoDev_LIS3DH()  # Create an instance of the LIS3DH acceleromet
 sensor_temp = PiicoDev_TMP117()
 display = create_PiicoDev_SSD1306()  # Create an instance of the SSD1306 display
 motion.range = 2  # Set the range of the accelerometer
-
+#SD card stuff
+cs = machine.Pin(1, machine.Pin.OUT)#Starting the Pin in a HIGH state
+spi = machine.SPI(0,
+                  baudrate=1000000,
+                  polarity=0,
+                  phase=0,
+                  bits=8,
+                  firstbit=machine.SPI.MSB,
+                  sck=machine.Pin(2),
+                  mosi=machine.Pin(3),
+                  miso=machine.Pin(4))
 # Function to get accelerometer data
 def get_movements():
     x, y, z = motion.acceleration  # Read accelerometer data
